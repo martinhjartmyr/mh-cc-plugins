@@ -1,0 +1,20 @@
+{
+  "name": "mh-cc-plugins",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "github:martinhjartmyr/mh-cc-plugins",
+  "owner": {
+    "name": "Martin Hjärtmyr"
+  },
+  "description": "Martin Hjärtmyr plugin marketplace",
+  "plugins": [
+    {
+      "name": "clipboard",
+      "description": "Tools for working with the system clipboard",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/martinhjartmyr/claude-plugin-clipboard.git"
+      }
+    }
+  ]
+}
